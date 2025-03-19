@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crunchy - Rotisserie Chicken</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Crunchy</h1>
+    <p>Delicious Rotisserie Chicken - Fast Takeaway & Delivery</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#order">Order</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h2>Welcome to Crunchy</h2>
+    <p>Your favorite place for perfectly seasoned rotisserie chicken!</p>
+  </section>
+
+  <section class="section" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item"><h3>Chicken Drums (1, 2, or 3 pieces)</h3><p>Starting from 25 MAD</p></div>
+    <div class="menu-item"><h3>Half Chicken</h3><p>Price varies</p></div>
+    <div class="menu-item"><h3>Whole Chicken</h3><p>Price varies</p></div>
+    <div class="menu-item"><h3>Sides: Kabsa, Pasta, Fries</h3><p>Prices vary</p></div>
+  </section>
+
+  <section class="section" id="order">
+    <h2>Order Online</h2>
+    <div class="order-form">
+      <form id="orderForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="tel" id="phone" placeholder="Phone Number" required>
+        <textarea id="address" placeholder="Delivery Address" required></textarea>
+        <textarea id="orderDetails" placeholder="Your Order (e.g. 1 Whole Chicken, 2 Fries)" required></textarea>
+        <select id="deliveryOption">
+          <option value="delivery">Delivery</option>
+          <option value="pickup">Pickup</option>
+        </select>
+        <button type="submit">Place Order</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:contact@crunchy.ma">contact@crunchy.ma</a></p>
+    <p>Phone: +212 522 123456</p>
+    <p>Address: Bourgogne, Casablanca, Morocco</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Crunchy. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
